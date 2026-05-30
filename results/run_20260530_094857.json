@@ -1,0 +1,1051 @@
+{
+  "timestamp": "2026-05-30T04:19:08.773276Z",
+  "metrics": {
+    "total": 100,
+    "evaluated": 50,
+    "correct": 47,
+    "accuracy": 0.94,
+    "api_errors": 50,
+    "unknown_responses": 0,
+    "per_class": {
+      "neutral": {
+        "precision": 0.333,
+        "recall": 1.0,
+        "f1": 0.5
+      },
+      "negative": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "positive": {
+        "precision": 0.979,
+        "recall": 0.958,
+        "f1": 0.968
+      }
+    },
+    "confusion_matrix": {
+      "neutral": {
+        "neutral": 1,
+        "negative": 0,
+        "positive": 0,
+        "unknown": 0
+      },
+      "negative": {
+        "neutral": 0,
+        "negative": 0,
+        "positive": 1,
+        "unknown": 0
+      },
+      "positive": {
+        "neutral": 2,
+        "negative": 0,
+        "positive": 46,
+        "unknown": 0
+      }
+    },
+    "avg_latency_ms": 571
+  },
+  "results": [
+    {
+      "id": "1",
+      "snippet": "I really appreciated the call, thank you so much for following up.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 1271
+    },
+    {
+      "id": "2",
+      "snippet": "This sounds great, please send me the details.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 974
+    },
+    {
+      "id": "3",
+      "snippet": "Yes, I'd love to schedule a meeting next week.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 919
+    },
+    {
+      "id": "4",
+      "snippet": "I've been looking for something like this, perfect timing.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 1223
+    },
+    {
+      "id": "5",
+      "snippet": "That's exactly what I needed to hear, thanks.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 1367
+    },
+    {
+      "id": "6",
+      "snippet": "Wonderful, count me in.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 407
+    },
+    {
+      "id": "7",
+      "snippet": "I'm definitely interested, let's move forward.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 446
+    },
+    {
+      "id": "8",
+      "snippet": "Thanks for explaining everything so clearly.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 511
+    },
+    {
+      "id": "9",
+      "snippet": "Yes, please go ahead and book me in.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 512
+    },
+    {
+      "id": "10",
+      "snippet": "This is fantastic news, I appreciate it.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 813
+    },
+    {
+      "id": "11",
+      "snippet": "I'm really happy with this offer.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 462
+    },
+    {
+      "id": "12",
+      "snippet": "That works perfectly for me.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 446
+    },
+    {
+      "id": "13",
+      "snippet": "Excellent, I look forward to hearing more.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 453
+    },
+    {
+      "id": "14",
+      "snippet": "Yes, you can put me down for that.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 479
+    },
+    {
+      "id": "15",
+      "snippet": "I love that idea, let's do it.",
+      "ground_truth": "negative",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": false,
+      "error": null,
+      "latency_ms": 490
+    },
+    {
+      "id": "16",
+      "snippet": "That sounds like a great deal honestly.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 447
+    },
+    {
+      "id": "17",
+      "snippet": "I'm sold, let me know the next steps.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 509
+    },
+    {
+      "id": "18",
+      "snippet": "Perfect, I'll see you Tuesday then.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 552
+    },
+    {
+      "id": "19",
+      "snippet": "Great, I'm glad we connected today.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 494
+    },
+    {
+      "id": "20",
+      "snippet": "I'm impressed, this is well thought through.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 573
+    },
+    {
+      "id": "21",
+      "snippet": "Yes, sign me up please.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 447
+    },
+    {
+      "id": "22",
+      "snippet": "Thank you, I'll definitely consider this seriously.",
+      "ground_truth": "positive",
+      "predicted": "neutral",
+      "raw_response": "neutral",
+      "correct": false,
+      "error": null,
+      "latency_ms": 513
+    },
+    {
+      "id": "23",
+      "snippet": "I'd be very interested in learning more about pricing.",
+      "ground_truth": "positive",
+      "predicted": "neutral",
+      "raw_response": "neutral",
+      "correct": false,
+      "error": null,
+      "latency_ms": 503
+    },
+    {
+      "id": "24",
+      "snippet": "Brilliant, I appreciate you reaching out.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 647
+    },
+    {
+      "id": "25",
+      "snippet": "Yes, this is exactly what we've been needing.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 584
+    },
+    {
+      "id": "26",
+      "snippet": "I'm happy to discuss this further.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 416
+    },
+    {
+      "id": "27",
+      "snippet": "Sounds wonderful, please email me the contract.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 513
+    },
+    {
+      "id": "28",
+      "snippet": "Yes please, I'd like to proceed.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 478
+    },
+    {
+      "id": "29",
+      "snippet": "Glad you called, this looks promising.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 586
+    },
+    {
+      "id": "30",
+      "snippet": "I'm on board with this approach.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 561
+    },
+    {
+      "id": "31",
+      "snippet": "Excellent presentation, very clear.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 407
+    },
+    {
+      "id": "32",
+      "snippet": "Yes, let's set up a demo.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 373
+    },
+    {
+      "id": "33",
+      "snippet": "I think this will work well for us.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 723
+    },
+    {
+      "id": "34",
+      "snippet": "Thanks, I'm definitely leaning yes.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 476
+    },
+    {
+      "id": "35",
+      "snippet": "Wonderful, I'll get back to you by Friday.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 444
+    },
+    {
+      "id": "36",
+      "snippet": "Yes please, I\u2019d like to proceed.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 473
+    },
+    {
+      "id": "37",
+      "snippet": "I really like what you're offering.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 452
+    },
+    {
+      "id": "38",
+      "snippet": "Great, let me know the timing.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 515
+    },
+    {
+      "id": "39",
+      "snippet": "This is helpful, thank you for your time.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 520
+    },
+    {
+      "id": "40",
+      "snippet": "I'm happy to commit to a pilot.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 461
+    },
+    {
+      "id": "41",
+      "snippet": "Yes, please schedule the next call.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 542
+    },
+    {
+      "id": "42",
+      "snippet": "That's a fair offer, I'll take it.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 512
+    },
+    {
+      "id": "43",
+      "snippet": "I appreciate the thorough explanation.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 454
+    },
+    {
+      "id": "44",
+      "snippet": "Yes, I'd like to move forward today.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 470
+    },
+    {
+      "id": "45",
+      "snippet": "Glad we could chat, very useful.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 476
+    },
+    {
+      "id": "46",
+      "snippet": "Perfect, that timing works.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 479
+    },
+    {
+      "id": "47",
+      "snippet": "I'd be very interested in learning more about pricing",
+      "ground_truth": "neutral",
+      "predicted": "neutral",
+      "raw_response": "neutral",
+      "correct": true,
+      "error": null,
+      "latency_ms": 519
+    },
+    {
+      "id": "48",
+      "snippet": "Looking forward to working together.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 591
+    },
+    {
+      "id": "49",
+      "snippet": "I'm in. Send the paperwork.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 523
+    },
+    {
+      "id": "50",
+      "snippet": "That's wonderful news, thanks for letting me know.",
+      "ground_truth": "positive",
+      "predicted": "positive",
+      "raw_response": "positive",
+      "correct": true,
+      "error": null,
+      "latency_ms": 566
+    },
+    {
+      "id": "51",
+      "snippet": "No thanks, I'm not interested.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 471
+    },
+    {
+      "id": "52",
+      "snippet": "Please remove me from your list.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 455
+    },
+    {
+      "id": "53",
+      "snippet": "I told you last time, stop calling.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 565
+    },
+    {
+      "id": "54",
+      "snippet": "This is the third call this week, please stop.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 653
+    },
+    {
+      "id": "55",
+      "snippet": "I'm not the right person, please don't call again.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 464
+    },
+    {
+      "id": "56",
+      "snippet": "We already have a vendor, we're not switching.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 493
+    },
+    {
+      "id": "57",
+      "snippet": "This is way out of our budget.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 357
+    },
+    {
+      "id": "58",
+      "snippet": "Honestly, I'm frustrated by these calls.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 629
+    },
+    {
+      "id": "59",
+      "snippet": "We already have a vendor, we're not switching.",
+      "ground_truth": "positive",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 623
+    },
+    {
+      "id": "60",
+      "snippet": "I don't have time for this right now.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 442
+    },
+    {
+      "id": "61",
+      "snippet": "Take me off your list permanently.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 492
+    },
+    {
+      "id": "62",
+      "snippet": "I'm not going to do business with you.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 397
+    },
+    {
+      "id": "63",
+      "snippet": "Your pricing is absurd, this isn't going to work.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 241
+    },
+    {
+      "id": "64",
+      "snippet": "I've heard this pitch a hundred times, no.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 465
+    },
+    {
+      "id": "65",
+      "snippet": "Stop emailing me too while you're at it.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 583
+    },
+    {
+      "id": "66",
+      "snippet": "This doesn't match what your website said.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 442
+    },
+    {
+      "id": "67",
+      "snippet": "I asked for a callback at 2pm, not now.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 467
+    },
+    {
+      "id": "68",
+      "snippet": "Frankly, this is wasting both our time.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 436
+    },
+    {
+      "id": "69",
+      "snippet": "Not interested, goodbye.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 264
+    },
+    {
+      "id": "70",
+      "snippet": "Please don't transfer me to anyone else.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 515
+    },
+    {
+      "id": "71",
+      "snippet": "Yeah, fine, I guess we can talk about it.",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 548
+    },
+    {
+      "id": "72",
+      "snippet": "I don't believe the numbers you're quoting.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 449
+    },
+    {
+      "id": "73",
+      "snippet": "I'm not saying no, but I'm not saying yes either.",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 345
+    },
+    {
+      "id": "74",
+      "snippet": "Your competitor is offering half the price.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 441
+    },
+    {
+      "id": "75",
+      "snippet": "Look, I'll be honest, I'm on the fence about this.",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 324
+    },
+    {
+      "id": "76",
+      "snippet": "Stop. Calling. Me.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 355
+    },
+    {
+      "id": "77",
+      "snippet": "This isn't the right time or fit.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 415
+    },
+    {
+      "id": "78",
+      "snippet": "I don't want to hear it.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 427
+    },
+    {
+      "id": "79",
+      "snippet": "Why do you keep calling me, please stop.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 267
+    },
+    {
+      "id": "80",
+      "snippet": "I'm really not interested, sorry.",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 303
+    },
+    {
+      "id": "81",
+      "snippet": "Can you send me more information by email?",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 266
+    },
+    {
+      "id": "82",
+      "snippet": "What's the price for the standard package?",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 338
+    },
+    {
+      "id": "83",
+      "snippet": "Who else have you worked with in our industry?",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 343
+    },
+    {
+      "id": "84",
+      "snippet": "I'll need to check with my manager first.",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 332
+    },
+    {
+      "id": "85",
+      "snippet": "Can you call back in two weeks?",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 299
+    },
+    {
+      "id": "86",
+      "snippet": "What's the typical implementation timeline?",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 296
+    },
+    {
+      "id": "87",
+      "snippet": "I need to think about it.",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 269
+    },
+    {
+      "id": "88",
+      "snippet": "Can you clarify the contract terms?",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 272
+    },
+    {
+      "id": "89",
+      "snippet": "What happens if we want to cancel?",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 273
+    },
+    {
+      "id": "90",
+      "snippet": "Is there a free trial available?",
+      "ground_truth": "negative",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 284
+    },
+    {
+      "id": "91",
+      "snippet": "How do you compare to your competitors?",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 277
+    },
+    {
+      "id": "92",
+      "snippet": "I'm gathering information from a few vendors.",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 301
+    },
+    {
+      "id": "93",
+      "snippet": "Can you send me a case study?",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 300
+    },
+    {
+      "id": "94",
+      "snippet": "What does the onboarding process look like?",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 297
+    },
+    {
+      "id": "95",
+      "snippet": "I'll discuss with my team and circle back.",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 292
+    },
+    {
+      "id": "96",
+      "snippet": "Do you have references I can speak with?",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 296
+    },
+    {
+      "id": "97",
+      "snippet": "What are the payment terms?",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 230
+    },
+    {
+      "id": "98",
+      "snippet": "Can we schedule a follow-up next month?",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 333
+    },
+    {
+      "id": "99",
+      "snippet": "I'm just exploring options right now.",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 312
+    },
+    {
+      "id": "100",
+      "snippet": "Please email me the details and I'll review.",
+      "ground_truth": "neutral",
+      "predicted": "unknown",
+      "raw_response": "",
+      "correct": false,
+      "error": "API error occurred: Status 429. Body: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "latency_ms": 269
+    }
+  ]
+}

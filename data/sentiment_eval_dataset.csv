@@ -1,0 +1,101 @@
+id,snippet,label
+1,"I really appreciated the call, thank you so much for following up.",positive
+2,"This sounds great, please send me the details.",positive
+3,"Yes, I'd love to schedule a meeting next week.",positive
+4,"I've been looking for something like this, perfect timing.",positive
+5,"That's exactly what I needed to hear, thanks.",positive
+6,"Wonderful, count me in.",positive
+7,"I'm definitely interested, let's move forward.",positive
+8,Thanks for explaining everything so clearly.,positive
+9,"Yes, please go ahead and book me in.",positive
+10,"This is fantastic news, I appreciate it.",positive
+11,I'm really happy with this offer.,positive
+12,That works perfectly for me.,positive
+13,"Excellent, I look forward to hearing more.",positive
+14,"Yes, you can put me down for that.",positive
+15,"I love that idea, let's do it.",negative
+16,That sounds like a great deal honestly.,positive
+17,"I'm sold, let me know the next steps.",positive
+18,"Perfect, I'll see you Tuesday then.",positive
+19,"Great, I'm glad we connected today.",positive
+20,"I'm impressed, this is well thought through.",positive
+21,"Yes, sign me up please.",positive
+22,"Thank you, I'll definitely consider this seriously.",positive
+23,I'd be very interested in learning more about pricing.,positive
+24,"Brilliant, I appreciate you reaching out.",positive
+25,"Yes, this is exactly what we've been needing.",positive
+26,I'm happy to discuss this further.,positive
+27,"Sounds wonderful, please email me the contract.",positive
+28,"Yes please, I'd like to proceed.",positive
+29,"Glad you called, this looks promising.",positive
+30,I'm on board with this approach.,positive
+31,"Excellent presentation, very clear.",positive
+32,"Yes, let's set up a demo.",positive
+33,I think this will work well for us.,positive
+34,"Thanks, I'm definitely leaning yes.",positive
+35,"Wonderful, I'll get back to you by Friday.",positive
+36,"Yes please, I’d like to proceed.",positive
+37,I really like what you're offering.,positive
+38,"Great, let me know the timing.",positive
+39,"This is helpful, thank you for your time.",positive
+40,I'm happy to commit to a pilot.,positive
+41,"Yes, please schedule the next call.",positive
+42,"That's a fair offer, I'll take it.",positive
+43,I appreciate the thorough explanation.,positive
+44,"Yes, I'd like to move forward today.",positive
+45,"Glad we could chat, very useful.",positive
+46,"Perfect, that timing works.",positive
+47,I'd be very interested in learning more about pricing,neutral
+48,Looking forward to working together.,positive
+49,I'm in. Send the paperwork.,positive
+50,"That's wonderful news, thanks for letting me know.",positive
+51,"No thanks, I'm not interested.",negative
+52,Please remove me from your list.,negative
+53,"I told you last time, stop calling.",negative
+54,"This is the third call this week, please stop.",negative
+55,"I'm not the right person, please don't call again.",negative
+56,"We already have a vendor, we're not switching.",negative
+57,This is way out of our budget.,negative
+58,"Honestly, I'm frustrated by these calls.",negative
+59,"We already have a vendor, we're not switching.",positive
+60,I don't have time for this right now.,negative
+61,Take me off your list permanently.,negative
+62,I'm not going to do business with you.,negative
+63,"Your pricing is absurd, this isn't going to work.",negative
+64,"I've heard this pitch a hundred times, no.",negative
+65,Stop emailing me too while you're at it.,negative
+66,This doesn't match what your website said.,negative
+67,"I asked for a callback at 2pm, not now.",negative
+68,"Frankly, this is wasting both our time.",negative
+69,"Not interested, goodbye.",negative
+70,Please don't transfer me to anyone else.,negative
+71,"Yeah, fine, I guess we can talk about it.",neutral
+72,I don't believe the numbers you're quoting.,negative
+73,"I'm not saying no, but I'm not saying yes either.",neutral
+74,Your competitor is offering half the price.,negative
+75,"Look, I'll be honest, I'm on the fence about this.",neutral
+76,Stop. Calling. Me.,negative
+77,This isn't the right time or fit.,negative
+78,I don't want to hear it.,negative
+79,"Why do you keep calling me, please stop.",negative
+80,"I'm really not interested, sorry.",negative
+81,Can you send me more information by email?,neutral
+82,What's the price for the standard package?,neutral
+83,Who else have you worked with in our industry?,neutral
+84,I'll need to check with my manager first.,neutral
+85,Can you call back in two weeks?,neutral
+86,What's the typical implementation timeline?,neutral
+87,I need to think about it.,neutral
+88,Can you clarify the contract terms?,neutral
+89,What happens if we want to cancel?,neutral
+90,Is there a free trial available?,negative
+91,How do you compare to your competitors?,neutral
+92,I'm gathering information from a few vendors.,neutral
+93,Can you send me a case study?,neutral
+94,What does the onboarding process look like?,neutral
+95,I'll discuss with my team and circle back.,neutral
+96,Do you have references I can speak with?,neutral
+97,What are the payment terms?,neutral
+98,Can we schedule a follow-up next month?,neutral
+99,I'm just exploring options right now.,neutral
+100,Please email me the details and I'll review.,neutral
